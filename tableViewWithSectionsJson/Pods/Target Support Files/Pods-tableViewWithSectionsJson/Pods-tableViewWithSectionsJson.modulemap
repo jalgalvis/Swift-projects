@@ -1,0 +1,6 @@
+framework module Pods_tableViewWithSectionsJson {
+  umbrella header "Pods-tableViewWithSectionsJson-umbrella.h"
+
+  export *
+  module * { export * }
+}

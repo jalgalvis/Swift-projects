@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CEBB883A849901414929AB /* Pods_InjoyReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D9DB594DDF91F744421CC4 /* Pods_InjoyReader.framework */; };
+		27096A1C209E99EF006892B4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27096A1B209E99EF006892B4 /* Product.swift */; };
+		27096A1E209E9A43006892B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27096A1D209E9A43006892B4 /* Order.swift */; };
+		2722A7131F81B893004598E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722A7121F81B893004598E9 /* AppDelegate.swift */; };
+		2722A7181F81B893004598E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722A7161F81B893004598E9 /* Main.storyboard */; };
+		2722A71D1F81B893004598E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722A71B1F81B893004598E9 /* LaunchScreen.storyboard */; };
+		2722A7621F8285C0004598E9 /* QRReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722A7611F8285C0004598E9 /* QRReaderVC.swift */; };
+		27482CA31F859F6400D873AA /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27482CA21F859F6400D873AA /* Variables.swift */; };
+		2777AFBD1FAF731D00B32F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2777AFBC1FAF731B00B32F1D /* Assets.xcassets */; };
+		278C72481FB60004000AB8EC /* SendAndReceiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C72471FB60004000AB8EC /* SendAndReceiveData.swift */; };
+		27C361001F85A78B00A86ABD /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C360FF1F85A78A00A86ABD /* ReusableCell.swift */; };
+		27FE180B1FB2BC1900DC91F2 /* SeeOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE180A1FB2BC1900DC91F2 /* SeeOrderVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27096A1B209E99EF006892B4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		27096A1D209E9A43006892B4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2722A70F1F81B893004598E9 /* InjoyReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InjoyReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2722A7121F81B893004598E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2722A7171F81B893004598E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2722A71C1F81B893004598E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2722A71E1F81B893004598E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2722A7611F8285C0004598E9 /* QRReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderVC.swift; sourceTree = "<group>"; };
+		27482CA21F859F6400D873AA /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		2777AFBC1FAF731B00B32F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278C72471FB60004000AB8EC /* SendAndReceiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAndReceiveData.swift; sourceTree = "<group>"; };
+		27C360FF1F85A78A00A86ABD /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		27FE180A1FB2BC1900DC91F2 /* SeeOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOrderVC.swift; sourceTree = "<group>"; };
+		30D9DB594DDF91F744421CC4 /* Pods_InjoyReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InjoyReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB8CEC53647427BB04BC537 /* Pods-InjoyReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjoyReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-InjoyReader/Pods-InjoyReader.release.xcconfig"; sourceTree = "<group>"; };
+		6089611BBEAC2EEBA03A5AAE /* Pods-Injoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Injoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Injoy/Pods-Injoy.debug.xcconfig"; sourceTree = "<group>"; };
+		891BB5CB3F524CED0849F223 /* Pods-InjoyReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjoyReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InjoyReader/Pods-InjoyReader.debug.xcconfig"; sourceTree = "<group>"; };
+		AA251697F09924B3B79249F5 /* Pods-Injoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Injoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Injoy/Pods-Injoy.release.xcconfig"; sourceTree = "<group>"; };
+		FA20A4E4E254B60C1167C95E /* Pods_Injoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Injoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2722A70C1F81B893004598E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CEBB883A849901414929AB /* Pods_InjoyReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2704E9691F8ECAA900A389A2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27C360FF1F85A78A00A86ABD /* ReusableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2722A7061F81B893004598E9 = {
+			isa = PBXGroup;
+			children = (
+				2722A7111F81B893004598E9 /* InjoyReader */,
+				2722A7101F81B893004598E9 /* Products */,
+				A62E652E8913A6686CA7E0FB /* Pods */,
+				99B6D2B01823D9250DC04813 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2722A7101F81B893004598E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2722A70F1F81B893004598E9 /* InjoyReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2722A7111F81B893004598E9 /* InjoyReader */ = {
+			isa = PBXGroup;
+			children = (
+				272A595C20844BE7000AB6B5 /* Model */,
+				27DC88F0209526F90041009D /* View */,
+				274D220220840A2600846DFB /* Controllers */,
+				2777AFBC1FAF731B00B32F1D /* Assets.xcassets */,
+				27DC88F3209527760041009D /* Supportting Files */,
+			);
+			path = InjoyReader;
+			sourceTree = "<group>";
+		};
+		272A595C20844BE7000AB6B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27482CA21F859F6400D873AA /* Variables.swift */,
+				27096A1D209E9A43006892B4 /* Order.swift */,
+				27096A1B209E99EF006892B4 /* Product.swift */,
+				278C72471FB60004000AB8EC /* SendAndReceiveData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		274D220220840A2600846DFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2722A7121F81B893004598E9 /* AppDelegate.swift */,
+				2722A7611F8285C0004598E9 /* QRReaderVC.swift */,
+				27FE180A1FB2BC1900DC91F2 /* SeeOrderVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27DC88F0209526F90041009D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2704E9691F8ECAA900A389A2 /* Cells */,
+				2722A7161F81B893004598E9 /* Main.storyboard */,
+				2722A71B1F81B893004598E9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27DC88F3209527760041009D /* Supportting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2722A71E1F81B893004598E9 /* Info.plist */,
+			);
+			path = "Supportting Files";
+			sourceTree = "<group>";
+		};
+		99B6D2B01823D9250DC04813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA20A4E4E254B60C1167C95E /* Pods_Injoy.framework */,
+				30D9DB594DDF91F744421CC4 /* Pods_InjoyReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62E652E8913A6686CA7E0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6089611BBEAC2EEBA03A5AAE /* Pods-Injoy.debug.xcconfig */,
+				AA251697F09924B3B79249F5 /* Pods-Injoy.release.xcconfig */,
+				891BB5CB3F524CED0849F223 /* Pods-InjoyReader.debug.xcconfig */,
+				4DB8CEC53647427BB04BC537 /* Pods-InjoyReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2722A70E1F81B893004598E9 /* InjoyReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2722A7211F81B893004598E9 /* Build configuration list for PBXNativeTarget "InjoyReader" */;
+			buildPhases = (
+				CA36219DF90EA970FC362A0A /* [CP] Check Pods Manifest.lock */,
+				2722A70B1F81B893004598E9 /* Sources */,
+				2722A70C1F81B893004598E9 /* Frameworks */,
+				2722A70D1F81B893004598E9 /* Resources */,
+				4FB5DA05CA308D28973B6227 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InjoyReader;
+			productName = Injoy;
+			productReference = 2722A70F1F81B893004598E9 /* InjoyReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2722A7071F81B893004598E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Juan Alejandro Galvis";
+				TargetAttributes = {
+					2722A70E1F81B893004598E9 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 23QXL24GD9;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2722A70A1F81B893004598E9 /* Build configuration list for PBXProject "InjoyReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2722A7061F81B893004598E9;
+			productRefGroup = 2722A7101F81B893004598E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2722A70E1F81B893004598E9 /* InjoyReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2722A70D1F81B893004598E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2722A71D1F81B893004598E9 /* LaunchScreen.storyboard in Resources */,
+				2777AFBD1FAF731D00B32F1D /* Assets.xcassets in Resources */,
+				2722A7181F81B893004598E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB5DA05CA308D28973B6227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InjoyReader/Pods-InjoyReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InjoyReader/Pods-InjoyReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA36219DF90EA970FC362A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InjoyReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2722A70B1F81B893004598E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27482CA31F859F6400D873AA /* Variables.swift in Sources */,
+				27FE180B1FB2BC1900DC91F2 /* SeeOrderVC.swift in Sources */,
+				27C361001F85A78B00A86ABD /* ReusableCell.swift in Sources */,
+				278C72481FB60004000AB8EC /* SendAndReceiveData.swift in Sources */,
+				2722A7621F8285C0004598E9 /* QRReaderVC.swift in Sources */,
+				2722A7131F81B893004598E9 /* AppDelegate.swift in Sources */,
+				27096A1C209E99EF006892B4 /* Product.swift in Sources */,
+				27096A1E209E9A43006892B4 /* Order.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2722A7161F81B893004598E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2722A7171F81B893004598E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2722A71B1F81B893004598E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2722A71C1F81B893004598E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2722A71F1F81B893004598E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		2722A7201F81B893004598E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2722A7221F81B893004598E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891BB5CB3F524CED0849F223 /* Pods-InjoyReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23QXL24GD9;
+				INFOPLIST_FILE = "$(SRCROOT)/InjoyReader/Supportting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuanAle.InjoyReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2722A7231F81B893004598E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB8CEC53647427BB04BC537 /* Pods-InjoyReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23QXL24GD9;
+				INFOPLIST_FILE = "$(SRCROOT)/InjoyReader/Supportting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JuanAle.InjoyReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2722A70A1F81B893004598E9 /* Build configuration list for PBXProject "InjoyReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2722A71F1F81B893004598E9 /* Debug */,
+				2722A7201F81B893004598E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2722A7211F81B893004598E9 /* Build configuration list for PBXNativeTarget "InjoyReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2722A7221F81B893004598E9 /* Debug */,
+				2722A7231F81B893004598E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2722A7071F81B893004598E9 /* Project object */;
+}

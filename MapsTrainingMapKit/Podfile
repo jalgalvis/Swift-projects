@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'MapsTrainingMapKit' do
+    use_frameworks!
+
+pod 'SwiftyJSON'
+pod 'Alamofire'
+
+end

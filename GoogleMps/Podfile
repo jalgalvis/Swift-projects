@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+
+target 'GoogleMps' do
+    use_frameworks!
+
+pod 'GoogleMaps'
+pod 'SwiftyJSON'
+pod 'Alamofire'
+pod 'SVProgressHUD'
+
+
+end

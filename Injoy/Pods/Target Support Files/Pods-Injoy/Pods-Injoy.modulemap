@@ -1,0 +1,6 @@
+framework module Pods_Injoy {
+  umbrella header "Pods-Injoy-umbrella.h"
+
+  export *
+  module * { export * }
+}

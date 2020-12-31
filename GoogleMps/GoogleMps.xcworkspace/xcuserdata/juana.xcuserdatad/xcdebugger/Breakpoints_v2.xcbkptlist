@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleMps/Controllers/MapVC.swift"
+            timestampString = "559708896.7470731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleMps.MapVC.viewDidLoad() -&gt; ()"
+                  moduleName = "GoogleMps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juana/Google%20Drive/Project/MyApps/GoogleMps/GoogleMps/Controllers/MapVC.swift"
+                  timestampString = "559708896.761019"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "7423">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 (GoogleMps.Customer) -&gt; Swift.Bool in GoogleMps.MapVC.viewDidLoad() -&gt; ()"
+                  moduleName = "GoogleMps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juana/Google%20Drive/Project/MyApps/GoogleMps/GoogleMps/Controllers/MapVC.swift"
+                  timestampString = "559708896.767995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

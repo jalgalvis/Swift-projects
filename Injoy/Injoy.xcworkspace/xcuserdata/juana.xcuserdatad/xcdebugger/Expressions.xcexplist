@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #2 in MealListVC.updateTable():MealListVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "productList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SplitBillVC.stepperActionNumberOfPeople(_:):SplitBillVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arraySplitBill">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Logged.viewDidAppear(_:):Logged.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "GlobalVariables.PlaceName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Checked.viewDidLoad():Checked.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sessionInfoGlobal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Logged.ActivateSession():Logged.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "productListGlobal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Logged.activateSession():Logged.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "productListGlobal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QRReader.found(code:):QRReader.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MealTableViewCell.awakeFromNib():MealTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReceiveDataFromServerProducts():Receive Data.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "GlobalVariables.PlaceID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MealViewController.viewDidLoad():MealViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DeCodeDate(ExpectedFormat:CodedDate:):GlobalVariables.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "localSessionInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in receiveDataFromServerProducts():Receive Data.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MealViewController.tableView(_:cellForRowAt:):MealViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "product.photo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
